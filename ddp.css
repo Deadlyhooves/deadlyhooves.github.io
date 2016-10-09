@@ -36,3 +36,23 @@ img
 	text-align: center;
 	font-size: 1em;
 }
+
+ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	border: .5em solid black;
+}
+
+li
+{
+	display:inline;
+	text-align:center;
+	border-bottom: .5em solid black;
+}
+
+li:last-child
+{
+	border-bottom: none;
+}
