@@ -1,7 +1,7 @@
 html
 {
 	color: white;
-	background: url(http://www.siue.edu/~mhallor/madisonrobertsphotography/background.png) center center fixed;
+	background: url(http://www.siue.edu/~mhallor/madisonrobertsphotography/background.png) no-repeat center center fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
