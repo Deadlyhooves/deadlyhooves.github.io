@@ -1,4 +1,20 @@
+html
+{
+	color: white;
+	background: url(http://www.siue.edu/~mhallor/madisonrobertsphotography/background.png);
+}
+
 h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+}
+
+.welcome
 {
 	text-align: center;
 }
