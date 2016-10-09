@@ -2,12 +2,14 @@ html
 {
 	color: white;
 	background: url(http://www.siue.edu/~mhallor/madisonrobertsphotography/background.png);
+	background-size: cover cover;
+	background-repeat: no-repeat;
 }
 
 h1
 {
 	text-align: center;
-}
+} 
 
 h2
 {
@@ -28,4 +30,5 @@ img
 .welcome
 {
 	text-align: center;
+	font-size: 1em;
 }
