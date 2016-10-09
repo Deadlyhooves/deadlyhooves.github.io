@@ -2,10 +2,10 @@ html
 {
 	color: white;
 	background: url(http://www.siue.edu/~mhallor/madisonrobertsphotography/background.png) no-repeat center center fixed;
-	background-size: 100%;
-	-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
 }
 
 h1
