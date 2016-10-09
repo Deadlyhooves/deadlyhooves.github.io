@@ -18,9 +18,11 @@ img
 {
 	display:block;
 	margin:auto;
-	padding:1em;
-    border:1em solid #021a40;
-    background-color:#ff0;
+	padding:.5em;
+    border:.5em solid grey;
+    background-color:whitesmoke;
+    width:20%;
+    height:20%;
 }
 
 .welcome
