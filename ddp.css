@@ -80,7 +80,7 @@ ul.navbar li.right {float: right;}
     padding: 10px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     ul.navbar li.right,
     ul.navbar li {float: none;}
 }
