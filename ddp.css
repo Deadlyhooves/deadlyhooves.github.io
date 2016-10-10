@@ -1,5 +1,6 @@
 html
 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: whitesmoke;
 	background: url(background.png) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
@@ -59,12 +60,12 @@ li a {
 	background-color: grey;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	text-decoration: none;
 	box-shadow: 2xp 2px 3px inset;
 	border-radius: 5px;
 	padding-right: 1em;
 	padding-left: 1em;
+	padding-bottom: 1em;
 	line-height: 2em;
 	margin-right: 16px;
 }
