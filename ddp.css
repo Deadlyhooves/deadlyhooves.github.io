@@ -1,6 +1,6 @@
 html {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    color: whitesmoke;;
+    color: black;
     background: url(background.png) center center fixed;
     -webkit-background-size: cover;
     /* For WebKit*/
@@ -24,55 +24,47 @@ h2 {
 
 img 
 {
+    position:relative;
     display: block;
     margin: auto;
     border: .3em solid black;
     border-radius:1em;
     background-color: white;
-    width: 20%;
-    height: 20%;
+    max-width: 50%;
+    max-height: 20%;
 }
 
 .welcome {
+    position:relative;
     text-align: center;
     font-size: 1em;
 }
 
-ul {
+ul.navbar 
+{
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
+    overflow: hidden;
+    background-color: white;
+    width:50%
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    border:.1em solid black;
     text-align: center;
-}
-
-li {
-    list-style-type: none;
-    padding: 0px;
-    height: 24px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: inline;
-}
-
-li a {
-    color: whitesmoke;
-    background-color: grey;
-    font-size: 12px;
+    padding: .5em;
     text-transform: uppercase;
     text-decoration: none;
-    box-shadow: 2xp 2px 3px inset;
-    border-radius: 5px;
-    padding-right: 1em;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    line-height: 2em;
-    margin-right: 16px;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: black;
-}
+ul.navbar li a.active {background-color: #4CAF50;}
+
+ul.navbar li.right {float: right;}
 
 .backbox {
     z-index: -1;
@@ -86,4 +78,9 @@ li a:hover {
     border: .3em solid black;
     border-radius:1em;
     padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    ul.navbar li.right,
+    ul.navbar li {float: none;}
 }
