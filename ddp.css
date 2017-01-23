@@ -1,17 +1,8 @@
 html {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
-    background: url(background.png) center center fixed;
-    -webkit-background-size: cover;
-    /* For WebKit*/
-    -moz-background-size: cover;
-    /* Mozilla*/
-    -o-background-size: cover;
-    /* Opera*/
-    background-size: cover;
-    /* Generic*/
-    min-height: 100%;
-    min-width: 100%;
+    background: url("zenbg-1.png"), url("zenbg-2.png") center center fixed;
+	background-repeat: repeat=y, repeat;
 }
 
 h1 {
