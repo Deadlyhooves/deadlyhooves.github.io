@@ -46,11 +46,13 @@ ul.navbar
     margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: white;
     width:50%
 }
 
-ul.navbar li {float: left;}
+ul.navbar li 
+{
+	background-color: white;
+}
 
 ul.navbar li a {
     display: block;
@@ -78,9 +80,4 @@ ul.navbar li.right {float: right;}
     border: .3em solid black;
     border-radius:1em;
     padding: 10px;
-}
-
-@media screen and (max-width: 800px){
-    ul.navbar li.right,
-    ul.navbar li {float: none;}
 }
