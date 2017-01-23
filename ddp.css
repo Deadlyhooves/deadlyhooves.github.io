@@ -1,6 +1,7 @@
 html {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
+	background: ##2a2a2a;
     background: url("ZenBG-1.png"), url("ZenBG-2.png") center center fixed;
 	background-repeat: repeat-y, repeat;
 }
@@ -13,7 +14,7 @@ h2 {
     text-align: center;
 }
 
-img 
+.Profile 
 {
     position:relative;
     display: block;
