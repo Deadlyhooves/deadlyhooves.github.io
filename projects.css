@@ -1,0 +1,75 @@
+html {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+	background: ##2a2a2a;
+    background: url("ZenBG-1.png"), url("ZenBG-2.png") center center fixed;
+	background-repeat: repeat-y, repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img 
+{
+    position:relative;
+    display: block;
+    margin: auto;
+    border: .3em solid black;
+    border-radius:1em;
+    background-color: white;
+    max-width: 70%;
+    max-height: 50%;
+}
+
+.welcome {
+    position:relative;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+ul.navbar 
+{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    width:50%
+}
+
+ul.navbar li 
+{
+	background-color: white;
+}
+
+ul.navbar li a {
+    display: block;
+    color: black;
+    border:.1em solid black;
+    text-align: center;
+    padding: .5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul.navbar li a.active {background-color: #4CAF50;}
+
+ul.navbar li.right {float: right;}
+
+.backbox {
+    z-index: -1;
+    background: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 1em auto 1em auto;
+    width: 50%;
+    height: 100%;
+    border: .3em solid black;
+    border-radius:1em;
+    padding: 10px;
+}
