@@ -1,8 +1,8 @@
 html {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     color: black;
-    background: url("zenbg-1.png"), url("zenbg-2.png") center center fixed;
-	background-repeat: repeat=y, repeat;
+    background: url("ZenBG-1.png"), url("ZenBG-2.png") center center fixed;
+	background-repeat: repeat-y, repeat;
 }
 
 h1 {
