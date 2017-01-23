@@ -26,6 +26,18 @@ h2 {
     max-height: 20%;
 }
 
+.scribble
+{
+	position:relative;
+	display:block;
+	margin:auto;
+	border:.3em solid black;
+	border-radius:1em;
+	
+	max-width:25%;
+	max-height:25%;
+}
+
 .welcome {
     position:relative;
     text-align: center;
